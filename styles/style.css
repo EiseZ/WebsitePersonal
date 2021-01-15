@@ -1,0 +1,50 @@
+body {
+  /* Styling */
+  /* background-color: rgb(14, 19, 22); */
+
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: stretch;
+}
+
+.main-page {
+  order: 1;
+  flex: 20 20 auto;
+
+  color: red;
+
+  height: 100vh;
+}
+
+.side-nav {
+  order: 0;
+  flex: 1 1 auto;
+
+  height: 100vh;
+
+  margin: 0;
+  padding: 0;
+
+  width: 100px;
+
+  background-color: rgb(36, 39, 40);
+}
+
+.side-nav img {
+  /* Size */
+  width: 100%;
+  height: 100%;
+
+  /* max-width: 5vw; */
+
+  display: block;
+
+  /* Positioning */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav hr {
+  border-top: 1px dashed gray;
+  width: 7vw;
+}
