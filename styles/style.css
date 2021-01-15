@@ -31,18 +31,26 @@ body {
 
 .side-nav input {
   /* Size */
-  width: 100%;
+  width: 80%;
   height: auto;
 
   /* Styling */
   background-color: rgb(36, 39, 40);
 
   /* Positioning */
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
-nav hr {
-  border-top: 1px dashed gray;
-  width: 7vw;
+.side-nav hr {
+  border: none;
+  border-top: 2px dashed black;
+  color: none;
+  background-color: none;
+  width: 100%;
+  /* margin-top: 15px;
+  margin-bottom: 15px; */
+  max-resolution: 0;
 }
